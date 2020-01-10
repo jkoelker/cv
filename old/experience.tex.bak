@@ -1,0 +1,86 @@
+%%% experience.lax ---
+ 
+%% Author:        Jason Koelker <jason@koelker.net>
+%% Last Revision: Wed Jun 06 21:08:00 2007
+\pagebreak
+\begin{rubric}{P R O F E S S I O N A L ~ E X P E R I E N C E}
+    \subrubric{Rackspace:}
+        \entry*\textbf{Leading Hosting Provider} San Antonio, TX
+        \entry*[Jul 2007--\ldots]
+            \textbf{Applications Developer 3}
+        \entry*\textbf{Lead backup migration effort} from Legato to Commvault. Developed application to automate 90\% of migration and created guidlines for manual QC by contractors. Became intamatly familiar with Commvault database in short timeframe to be able to speak inteligently with Commvault Development staff in requesting features and avenues of achiving them.
+        \entry*\textbf{Wrote Commvault read only API} allowing other application developers to extract information from Commvault databases.  Paved the way for cli tools that presented data in a user friendly manner.
+        \entry*\textbf{Provide mentoring and guidance} to other developers at Rackspace.
+	\subrubric{Placemark Investments:}
+		\entry*\textbf{Portfolio Management Company} Addison, TX
+		\entry*[Sep 2006--Jul 2007]
+			\textbf{Systems Engineer}
+		\entry*\textbf{Upgrade and redesign company Active Directory} to provide a scalable and redundant management and authentication system for Windows and Linux/Unix Desktops and Servers.  Integrate Samba fileservers with AD authentication and posix ACLs for authentication and file security to provide file shareing and application hosting services.  Manage WSUS 3.0 server for centralized deployment of patches.
+		\entry*\textbf{Redesign company IP address space} from legacy single RFC 1918 class C to scalable multiple subnet network also using space from RFC 1918.  Assist with resetup of OpenBSD pf firewall for the new network scheme using CARP and VLAN interfaces for redundancy and port utilization efficientcy.  Firewall and network redesigns provides finer control over access to sensitive information from different networks.
+		\entry*\textbf{Designed and oversaw installation of Mini-DC} in office server room to house local servers and production staging area.  Gathered power requirements and specified centralized battery backup options.  Met with vendors and recieved bids for various integration services (electrical, cableing, \ldots).  Installed cabinets and rabinet PDUs.
+		\entry*\textbf{Provide assistance and advice} to junior team members including helpdesk personel.  Ensured that junior team members were involved in the troubleshooting proccess when assisting to foster their technical development.
+		
+	\subrubric{Rackspace Managed Hosting:}
+		\entry*\textbf{Leading Managed Hosting Provider} San Antonio, TX
+		\entry*[Oct 2005--Aug 2006]
+            \textbf{SMB Service Innovation - Programmer}
+        \entry*\textbf{Develop tools, scripts, and applications} allowing Support and Managed Backup Techs to preform their duties more efficiently.  Notable achievements include: 
+        \entry*\textbf{Deployment system} and Python module to run commands on a set of servers (Unix/Linux/Windows) automatically while collecting output.  Output stored in MySQL database for reporting and data mining.
+        \entry*\textbf{Backup failure alerts,} create alerts in a centralized console when customer backup fails.  Eliminated manual process of harvesting failures from emails.  Allows tracking of backup failure history.
+        \entry*\textbf{Custom backup usage reporting.}  Collects and emails backup usage daily to group of customers which subscribe to service.  Based on active push from the NetWorker backup system, eliminating the need to monitor log files to collect data passively.
+        \entry*\textbf{Windows 2003 Service Pack 1 Updater} for Dell 2650 and 2850 servers.  Stepped through applying bios patches, OpenManage upgrade, and service pack 1 installation.
+        \entry*[May 2005--Oct 2005]
+			\textbf{SMB Managed Backup Team Leader}
+		\entry*\textbf{Provide leadership and direction} for 8 member SMB Managed Backup Team.  Identify, assign, and monitor progress of team projects.  Interface extensively with other departments to architect solutions for customer backups.  Ensure team continuity and resolve issues.  Empower and advise team members to resolve customer issues without escalation where possible.  Provide guidance and mentoring to team members to ensure customer service.
+		\entry*[Oct 2004--May 2005]
+			\textbf{Managed Backup Administrator}
+		\entry*\textbf{Monitor and troubleshoot Rackspace Managed Backup} offering, utilizing \textbf{Legato NetWorker}.  Configure, schedule, and verify new customer backups, interfacing with other departments as necessary (Networking, Support, DCOPS).  Advanced troubleshooting of backup and restore failures using vendor documentation, knowledge-base, and/or support services.  Perform data restoration upon customer request.  Organize regular audits of backup configurations to ensure quality of service,  Resolve escalated customer issues and provide technical advice and direction to Backup Technicians.  Advise customers on best backup practices to maximize uptime and reduce restore time.
+        \entry*\textbf{Create and manage bash and Perl scripts} to automate interfacing with NetWorker.  Created several scripts for group control and save set information.  Wrote and maintained semi-automated script to collect information from CRM application and create NSR Client definitions for input to NetWorker.  Worked with internal CRM developers to create xmlrpc interface to CRM, reducing errors generated by screen scrapping.
+        \entry*[Mar 2004--Oct 2004]
+			\textbf{Level II Support Administrator}
+		\entry*\textbf{Interface and provide support to Rackspace Customers} on a daily basis through telephone and ticketing system.  Support topics include, but not limited to: \textbf{Apache} configuration including v-hosting and mass v-hosting, troubleshooting and performance tuning; \textbf{Sendmail/Postfix/Qmail} configuration including best practices, virtual address setup and walk-through, proper mail configuration to prevent unnecessary mail blocks; \textbf{MySQL} performance tuning including data restructuring and query optimization suggestions, upgrade benefits of newer versions of MySQL (ex. Query Caching).
+        \entry*\textbf{Operating systems supported} included: Linux (RedHat, Debian, SuSE, Gentoo), Solaris, FreeBSD, Windows 2k/2k3.
+		\entry*[Jun 2003--Mar 2004]
+			\textbf{Data Center Operations Team Leader}
+		\entry*[Dec 2002--Jun 2003]
+			\textbf{Data Center Operations Tech}
+		\entry*\textbf{Provide fanatical service and support} to Rackspace customers.  Interface and coordinate with multiple departments to troubleshoot and provision hardware.  Monitor and troubleshoot customer servers and network devices.
+		\entry*\textbf{Assume Technical Guide web administration duties}, an all inclusive Data Center Operations knowledge-base.  Ensure accuracy of all submissions and QC/Review current documentation.  Review all code, to affirm cross platform/browser usability.  Set guidelines and policies for article submissions.
+		\entry*\textbf{Implemented centralized authentication system} for web applications developed and used in the Data Center Operations Department.  QC, modify, or suggest changes to web applications to provide a secure interface to the centralized authentication system.
+		\entry*\textbf{Develop projects that reduce the amount of unneeded paperwork}.  Develop projects that allow Data Center Technicians to work smarter; analyze requirements from management and implement solutions utilizing processing power first, man power second.
+        \entry*\textbf{Create custom jumpstart system} for installing Solaris on customer's servers.  Automated all aspects of install, including installation of patch cluster, setup of DiskSuite mirrored root and swap slices, network configuration (including aliases and private-net), modified started services to reduce security issues, and created initial users.
+
+	\subrubric{Mustang/Carrera Communications:}
+		\entry*\textbf{Provider of turnkey IT solutions / CLEC} San Antonio, TX
+		\entry*[Jun 2000--Oct 2002]
+			\textbf{Network / Systems Administrator}
+		\entry*\textbf{Interface extensively with clients} to perform comprehensive needs analysis and explain features/benefits/drawbacks of various solution options.  Design and install customer focused networks for small to mid-size companies; analyze current systems and recommend performance enhancing infrastructure changes; research products and vendors for customers; and reconfigure, install, and troubleshoot servers and network services.
+		\entry*\textbf{Skyrocketed system uptime} from an average of 86\% to 99.9\% following leadership of Linux migration.  Troubleshot and resolved challenges of varying complexities to reverse prior history of hard drive crashes, system slowdowns, security breaches, tenuous coding, downed server, data storage inefficiencies, and applications stalls.
+		\entry*\textbf{Completed ground up network design} (up to 1,000 local/remote users) and/or system and network enhancements for diverse industry clients (e.g. funeral services, health care, high tech, manufacturing, property management, investment banking, and real estate) within a broad range of technical environments (Windows, Linux, BSD).
+		\entry*\textbf{Rapidly resolved business crippling} issues for clients with outdated technology (e.g. BSDI 2.0 Pentium Pro), crashed hard drives, and malfunctioning motherboards.  Restored systems and designed safeguards and back-ups that won rave reviews and frequent referral business from clients.
+		\entry*\textbf{Augmented vulnerable network} and redesigned poorly designed firewall for investment banking client unaware that all of its transactions and confidential customer files were exposed to the public.
+		\entry*\textbf{Redesigned multiple networks} substituting public IP's with private IPs, limiting peer-to-peer network usage and saving on bandwidth costs.  Results included growth enabling, highly redundant, consolidated networks delivering efficiency/functionality improvements of at least 50\%.
+
+	\subrubric{GTE -- Now Verizon Communications:}
+		\entry*\textbf{Major world provider of high growth communications services} Austin, TX
+		\entry*[Feb 2000--Jun 2000]
+			\textbf{Level 1 Tech Support Rep}
+		\entry*\textbf{Provided first contact technical support} to end users as member of outsourced help desk team for Internet Appliance ISP.  Troubleshot connectivity issues; addressed customer questions regarding I-Opener appliance use and the Internet; provided patient, step-by-step solutions to users with divergent technical backgrounds; escalated problems as appropriate; and hand selected as primary trainer for Level 1 new hires.
+		\entry*\textbf{Resolved approximately 90\% of customer issues on the first call.}
+		\entry*\textbf{Became self taught expert in I-Opener} by disassembling device in home lab to determine modem hardware, components, hardware layout, and system functionality. Efforts enabled enhanced customer support and better ticket documentation and led to frequent requests from Level 2 reps for product specific information and assistance.
+		\entry*\textbf{Saved countless hours of Level 2 reps time} and sped solution delivery for customers by resolving many calls that otherwise would have been escalated.  Earned a reputation for on-target RMA recommendations due to ability to quickly identify defective appliance hardware.
+
+    \subrubric{FPA Medical Management / Optimal IS:}
+		\entry*\textbf{Physician practice management organization} San Antonio, TX
+		\entry*[Aug 1997--Aug 1998]
+			\textbf{MIS Intern}
+		\entry*\textbf{Selected for team providing IS outsourcing} and turnkey IS department implementation.  Repaired systems and hardware, gave help desk support, and assisted with large network upgrades (5,000--10,0000 users).
+		\entry*\textbf{Created content, design, and coding} for company's first corporate intranet.  Incorporated interactive features to encourage upward communications, knowledge sharing, and key message delivery.
+		\entry*\textbf{Initiated and implemented fully automated inventory solution} that enabled tracking or approximately 250K pieces of equipment scattered across ten locations.  Designed labeling system for processors and RAM as additional precautionary measure to protect close to 3 million dollars in inventory.
+	\subrubric{Axiom Business Services:}
+		\entry*\textbf{Business brokerage firm}San Antonio, TX
+		\entry*[Jun 1996--Aug 1998]
+			\textbf{System Administrator}
+		\entry*\textbf{Maintained small company systems}, designed and printed marketing material, and created original artwork and company logo to extend business identity / image.
+
+\end{rubric}
