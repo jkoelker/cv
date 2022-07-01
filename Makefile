@@ -3,8 +3,8 @@
 .PHONY: all
 all: jason_kölker_cv.pdf
 
-jason_kölker_cv.pdf: jason_kölker_cv.tex
-	latexmk -pdf -pdflatex="pdflatex -interaction=nonstopmode" -use-make jason_kölker_cv.tex
+jason_kölker_cv.pdf: jason_kölker_cv.tex resume.cls
+	tectonic jason_kölker_cv.tex
 
 .PHONY: spell
 spell:
