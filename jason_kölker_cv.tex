@@ -3,6 +3,7 @@
 \usepackage[linewidth=0.65pt]{mdframed}
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
 \usepackage{fontawesome}
+\usepackage{hyperref}
 
 % Item-less subsection
 \newenvironment{rEmptySubsubsection}[2]{
@@ -11,11 +12,11 @@
 
     \name{Jason Kölker}
     \address{\
-    \faEnvelope\ jason@koelker.net
-    \hspace{2mm}
-    \faMobile\ +1 210 264 5113
-    \hspace{2mm}
-    \faGithub\ jkoelker
+        \faEnvelope\ \href{mailto:jason@koelker.net}{jason@koelker.net}
+        \hspace{2mm}
+        \faMobile\ \href{tel:+1 210 264 5113}{+1 210 264 5113}
+        \hspace{2mm}
+        \faGithub\ \href{https://github.com/jkoelker}{jkoelker}
     }
 
     \begin{document}
@@ -33,8 +34,8 @@
         \mdfdefinestyle{techskills}{innerleftmargin=0.5em,innerrightmargin=0.5em}
         \begin{mdframed}[style=techskills]
             \begin{tabular}{l l}
-                {\bf Cloud:} & AWS, Google Cloud, OpenStack \\
-                {\bf Containers:} & Kubernetes, Docker \\
+                {\bf Cloud:} & AWS, GCP, Azure, OpenStack \\
+                {\bf Containers:} & Kubernetes, Podman, Docker \\
                 {\bf Languages:} & Go, Python, C, C++, Java, C\#, bash, Erlang \\
                 {\bf Networking:} & VxLAN, OpenVswitch, OpenFlow, STT, BGP, EVPN \\
                 {\bf Services:} & Apache/nginx, Bind, OpenLDAP, Active Directory,
@@ -45,9 +46,34 @@
     \end{rSection}
 
     \begin{rSection}{Experience}
+        \begin{rSubsection}{Twilio}
+            {2023 -- Present} % chktex 8
+            {San Francisco, CA -- Remote} % chktex 8
+            \begin{rSubsubsection}{Principal Software Engineer} % chktex 8
+                {2023 -- Present} % chktex 8
+            \item Implement next generation streaming platform for Twilio
+                Segment. Develop APIs and SDKs to enable developers to focus
+                on business logic, instead of streaming infrastructure.
+            \item Provide technical leadership and mentoring to a team of
+                engineers.
+            \item Build composable CDP platform allowing for activation on
+                data sourced from customer warehouses.
+            \end{rSubsubsection}
+        \end{rSubsection}
+
+        \begin{rSubsection}{Impossible Cloud}
+            {2023 -- 2023} % chktex 8
+            {Hamburg, Germany -- Remote} % chktex 8
+            \begin{rSubsubsection}{Principal Software Engineer} % chktex 8
+                {2023 -- 2023} % chktex 8
+            \item Implement multi-region, multi-cloud object replication system.
+            \item Architect Poof of Concept S3 compatible storage platform using
+                IPFS and Filecoin for persistence.
+            \end{rSubsubsection}
+        \end{rSubsection}
 
         \begin{rSubsection}{FloatMe}
-            {2021 -- Present} % chktex 8
+            {2021 -- 2023} % chktex 8
             {San Antonio, TX -- Remote} % chktex 8
             \begin{rSubsubsection}{Principal Software Engineer} % chktex 8
                 {2022 -- Present} % chktex 8
@@ -79,12 +105,12 @@
 
         \begin{rSubsection}{Banadushi Enterprises LLC}
             {2008 -- Present} % chktex 8
-            {Remote} % chktex 8
+            {Live Oak, TX -- Remote} % chktex 8
             \begin{rSubsubsection}{Software Engineering Consultant} % chktex 8
                 {2008 -- Present} % chktex 8
             \item Various consulting activities related to distributed
                 systems, software development, devops, and automation.
-            \item Currently working on Kubernetes, ClusterAPI, and OS Image
+            \item Specializing in Kubernetes, ClusterAPI, and OS Image
                 Generation for clients.
             \end{rSubsubsection}
         \end{rSubsection}
@@ -196,49 +222,6 @@
                 10,000 servers, developed application and tooling scripts to automate
                 90\% of the migration, and created guidelines for QC/QA efforts
             \end{rSubsubsection}
-        \end{rSubsection}
-
-        \begin{rSubsection}{Placemark Investments}
-            {2006 -- 2007} % chktex 8
-            {Dallas, TX}
-            \begin{rSubsubsection}{Systems Engineer}
-                {} % chktex 8
-            \item Provided comprehensive systems administration support for a leading
-                provider of investment portfolio management software services, with
-                responsibility for a small Windows domain encompassing more than 200
-                users at two locations, and managing connectivity between office
-                locations and a co-location facility
-            \item Re-designed the company IP address space from legacy single RFC 1918
-                class C to a scalable, multi subnet network, and assisted with the
-                re-setup of OpenBSD pf firewall for the new network scheme using CARP
-                and VLAN interfaces for redundancy and port utilization efficiency
-            \end{rSubsubsection}
-        \end{rSubsection}
-
-        \begin{rSubsection}{Rackspace Managed Hosting}
-            {2002 -- 2006} % chktex 8
-            {San Antonio, TX}
-            \begin{rSubsubsection}{Service Innovation Programmer}
-                {2005 -- 2006} % chktex 8
-            \item Led a wide range of free-form problem solving and process automation
-                projects, including development of a script that automated collection
-                of backups provisioning commands and ticket updating, allowing backup
-                administrators to focus on issues rather than collecting data from
-                systems to build commands
-            \item Created a Windows 2003 Service Pack 1 Updater program for more than
-                20,000 Dell 2650 and 2850 servers,including application of bios patches,
-                OpenManage upgrade, and Service Pack 1 installation
-            \end{rSubsubsection}
-
-            {\em Team Lead --- SMB Managed Backup\/} \hfill {\em 2005\/}
-            \linebreak
-            \smallskip
-            {\em Support Systems Administrator\/} \hfill {\em 2004 -- 2005\/} % chktex 8
-            \linebreak
-            \smallskip
-            {\em Datacenter Operations Technician\/} \hfill {\em 2002 -- 2004\/} % chktex 8
-            \linebreak
-            \smallskip
         \end{rSubsection}
     \end{rSection}
 
